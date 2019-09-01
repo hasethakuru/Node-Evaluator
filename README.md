@@ -1,5 +1,5 @@
 # Node Math
-### Node Math is Easy, safe, ultra light Mathematical Calculator For Javascript
+### Node Math is a Easy, safe, ultra light Mathematical Calculator For Javascript
 
 Mostly Made for discord.js but you can use for other's too!
 
