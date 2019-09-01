@@ -15,7 +15,8 @@ bot.on('ready', async () => console.log('Ready'));
 
 bot.on('message', async message => {
     let messageAray = message.content.split(' ');
-    let args = messageAray.sice(1);
+    let args = messageAray.sl
+    ice(1);
     if(message.content.startsWith(`${prefix}eval`)) {
         let toEval = args.join(' ');
         let result = await eval(toEval);
