@@ -1,4 +1,4 @@
-# Math-evaluator
+# Node-Math
 ### Easy, safe, ultra light
 
 Mostly Made for discord.js but you can use for other's too!
@@ -6,7 +6,7 @@ Mostly Made for discord.js but you can use for other's too!
 ## Usage 
 ```js
 //Discord.js
-const eval = require("math-evaluator");
+const eval = require("node-math");
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const prefix = '-' //you can use any prefix you like :)
