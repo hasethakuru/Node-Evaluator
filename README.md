@@ -1,4 +1,4 @@
-# Node-Math
+# Node Math
 ### Easy, safe, ultra light
 
 Mostly Made for discord.js but you can use for other's too!
@@ -6,34 +6,35 @@ Mostly Made for discord.js but you can use for other's too!
 ## Usage 
 ```js
 //Discord.js
-const eval = require("node-math");
+const eval = require("node-mathematics");
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const prefix = '-' //you can use any prefix you like :)
-
+ 
 bot.on('ready', async () => console.log('Ready'));
-
+ 
 bot.on('message', async message => {
     let messageArray = message.content.split(' ');
     let args = messageArray.slice(1);
-    if(message.content.startsWith(`${prefix}eval`)) {
+    if(message.content.startsWith(`${prefix}evaluate`)) {
         let toEval = args.join(' ');
         let result = await eval(toEval);
         message.channel.send(result);
     }
-})
+});
 // Asynchronous function
 (async () => {
-    let result = await mathexpression('1+1')
+    let result = await eval('1+1')
         .catch(e => console.log(e));
     console.log(result);
 })();
 
 // Synchronous function
 (() => {
-    let result = mathexpression('1+1')
+    let result = eval('1+1')
         .then(r => console.log(r))
         .catch(e => console.log(e));
 })();
 ```
 ### Facing any problems? let me know! Thanos 2.0#4501
+
