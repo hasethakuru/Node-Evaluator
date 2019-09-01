@@ -1,4 +1,4 @@
-# math-evaluator
+# Math-evaluator
 ### Easy, safe, ultra light
 
 Mostly Made for discord.js but you can use for other's too!
@@ -37,4 +37,4 @@ bot.on('message', async message => {
         .catch(e => console.log(e));
 })();
 ```
-### Facing any problems> let me know! Thanos 2.0#4501
+### Facing any problems? let me know! Thanos 2.0#4501
