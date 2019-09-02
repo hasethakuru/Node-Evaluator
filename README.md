@@ -1,12 +1,17 @@
-# Node Math
-### Node Math is a Easy, safe, ultra light Mathematical Calculator For Javascript
+# Node Evaluator
+### Node Evaluator is a Easy, safe, ultra light Mathematical Calculator For Javascript
 
-Mostly Made for discord.js but you can use for other's too!
+Mostly Made for discord.js but you can use for other libraries too!
+
+## Installation
+```js
+npm i node-evaluator
+```
 
 ## Usage 
 ```js
 //Discord.js
-const eval = require("node-mathematics");
+const eval = require("node-evaluator");
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const prefix = '-' //you can use any prefix you like :)
