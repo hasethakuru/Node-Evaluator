@@ -1,5 +1,5 @@
 {
-  "name": "node-mathematics",
+  "name": "node-evaluator",
   "version": "1.0.5",
   "description": "A simple, easy, ultra light evaluator for mathematical calculations",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thanos783/Node-math.git"
+    "url": "git+https://github.com/thanos783/Node-Evaluator.git"
   },
   "keywords": [
     "Eval"
@@ -16,7 +16,7 @@
   "author": "Thanos 2.0#4501",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thanos783/Node-math/issues"
+    "url": "https://github.com/thanos783/Node-Evaluator/issues"
   },
-  "homepage": "https://github.com/thanos783/Node-math#readme"
+  "homepage": "https://github.com/thanos783/Node-Evaluator#readme"
 }
