@@ -1,4 +1,6 @@
-# Node Evaluator
+# DEPRECATED
+
+# Node Evaluator 
 ### Node Evaluator is a Easy, safe, ultra light Mathematical Calculator For Javascript
 
 Mostly Made for discord.js but you can use for other libraries too!
